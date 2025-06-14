@@ -19,12 +19,12 @@ nombre, tiempo, recomendacion = Te.receta(sabor)
 
 precio = Te.obtener_precio(formato)
 
-duracion = Te.duracion
+
 print(f"""
 a. Sabor del tipo de té: {nombre}
 b. Formato: {formato}
 c. Precio: {precio}
 d. Tiempo: {tiempo}
 e. Recomendación: {recomendacion}
-f. duracion: {duracion}
+f. Duracion: {Te.duracion} dias
 """)
